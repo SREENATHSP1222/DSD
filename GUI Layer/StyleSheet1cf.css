@@ -1,0 +1,28 @@
+﻿body {
+}
+      .auto-style7 {
+            width: 1221px;
+            height: 98px;
+        }
+        .auto-style12 {
+            width: 1221px;
+            height: 66px;
+        }
+        .auto-style13 {
+            width: 1221px;
+            height: 65px;
+        }
+        .auto-style14 {
+            width: 1221px;
+            height: 60px;
+        }
+.image1 {
+    background-image:url('images/aircraft-airplane-business-527.jpg');
+    background-repeat:no-repeat;
+     background-size:cover;
+}
+.head1 {
+    text-align: center;
+     color: #FFFFFF;
+      background-color: #3366FF;
+}

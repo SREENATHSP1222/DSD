@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="GUI_Layer.Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+  
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div style="text-align: center; height: 40px;">
+                <asp:Label ID="Label6" runat="server" style="font-weight: 700; font-size: x-large" Text="Air Ticket Reservation System"></asp:Label>
+                <div style="padding-right:80%;">
+                <asp:LinkButton ID="Home" runat="server" OnClick="LinkButton1_Click" PostBackUrl="~/Myhome.aspx">Home</asp:LinkButton>
+                    </div>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            <div style="padding-top:50px;">
+            <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/images/cog logo.png" Width="190px" Height="46px" />
+            <asp:Label ID="Label4" runat="server" style="color: #0066FF; text-align:right;padding-left:55%;padding-bottom:5px;" Text="CopyRight@2019Cognizant"></asp:Label>
+            </div>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,35 @@
+﻿body {
+    
+}
+ .auto-style1 {
+            text-align:center;
+            background-image:linear-gradient(black,white);
+        }
+        .auto-style2 {
+            width: 922px;
+           
+        }
+        .auto-style3 {
+            height: 160px;
+            width: 408px;
+            text-align: right;
+        }
+        .auto-style4 {
+            width: 922px;
+            height: 160px;
+        }
+        .auto-style5 {
+            width: 408px;
+            text-align: right;
+        }
+        .auto-style7 {
+             font-size: x-large;
+              font-weight: 700;
+            }
+
+    .table1 {
+      background-image:url('images/reg.jpg');
+      background-repeat:no-repeat;
+      background-size:cover;
+        }
+
